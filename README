@@ -21,3 +21,5 @@ It's a good idea to do several runs and compare the output like so
 	make rerun
 	make rerun
 	cd Results && make LIST=<your OS>/*
+
+It's a good practice to deploy and run in openEuler step in step, refer [step in step to deploy and run in openEuler](http://devops-dev.com/)
