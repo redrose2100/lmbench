@@ -19,7 +19,7 @@ done
 trap 'rm -f ${BASE}$$.s ${BASE}$$.c ${BASE}$$.o ${BASE}$$; exit 1' 1 2 15
 
 cp /usr/include/netdb.h /usr/include/tirpc/rpc/
-LDLIBS=-lm -ltirpc
+LDLIBS="-lm -ltirpc"
 CFLAGS="${CFLAGS} -I /usr/include/tirpc"
 
 # check for HP-UX's ANSI compiler
